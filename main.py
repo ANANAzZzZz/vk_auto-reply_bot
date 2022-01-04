@@ -1,5 +1,5 @@
 from simple_bot import Bot
+from scheduled_bot import Scheduled_bot
 
-bot = Bot()
 
-bot.send_message(receiver_user_id="221132552", message_text="Привет, это сообщение отправлено автоматически")
+scheduledBot = Scheduled_bot()
